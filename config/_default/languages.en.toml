@@ -2,22 +2,37 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-title = "Blowfish"
+title = "Yueshan Zhang" 
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  # logo = "img/logo.png"
-  description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  description = "Academic portfolio of Yueshan Zhang - Mathematics undergraduate at Nankai University & Research Assistant at UC Berkeley." 
+  
+  # logo = "img/logo.png" 
+  
+  # copyright = "© 2025 Yueshan Zhang"
+  
   dateFormat = "2 January 2006"
 
 [params.author]
-  name = "Your name here"
-  image = "img/blowfish_logo.png"
-  headline = "I'm only human"
-  bio = "A little bit about you"
+  name = "Yueshan Zhang" 
+  
+  # 4. 头像：关键！你需要把一张照片重命名为 avatar.jpg 放到 assets/img/ 文件夹里
+  # 如果暂时没有照片，先不要改这行，或者把 image = ... 注释掉
+  image = "img/avatar.jpg" 
+  
+  # 5. 一句话介绍 (Headline)：这是头像下面最醒目的大字
+  # 结合你的南开背景和伯克利经历，这样写非常有分量：
+  headline = "B.S. in Math @ Nankai Univ. | Incoming PhD Applicant"
+  
+  # 或者强调你的研究身份：
+  # headline = "Research Assistant @ UC Berkeley | Math @ Nankai"
+
+  # 6. 个人简介 (Bio)：这是下面的一行小字
+  # 结合你的研究兴趣（大模型/数字孪生、因果推断）：
+  bio = "Researching Causal Inference & LLMs (Digital Twins). Interested in Statistics and Biostatistics."
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
