@@ -15,6 +15,7 @@ enableCodeCopy = true
 # mainSections = ["section1", "section2"]
 # robots = ""
 
+
 [header]
   layout = "basic" # valid options: basic, fixed
 
@@ -24,6 +25,7 @@ enableCodeCopy = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
+
 
 [homepage]
   layout = "profile" # valid options: page, profile, hero, card, background, custom
